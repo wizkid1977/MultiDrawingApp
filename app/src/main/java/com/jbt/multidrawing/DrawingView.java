@@ -21,7 +21,7 @@ public class DrawingView extends View {
         super(context, attrs);
 
         paint = new Paint();
-        paint.setColor(Color.CYAN);
+        paint.setColor(Color.MAGENTA);
         paint.setStrokeWidth(10);
         paint.setStyle(Paint.Style.STROKE);
     }
